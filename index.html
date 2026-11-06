@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy · Tafseer ul Quran</title>
 <meta name="description" content="Privacy policy for the Tafseer ul Quran al Kareem app.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:title" content="Privacy Policy · Tafseer ul Quran al Kareem">
+<meta property="og:image" content="https://naeem-shah.github.io/tafseerulquran-privacy/logo.png">
 <style>
   :root {
     --bg: #fbf8f2; --text: #2a2620; --muted: #6b6357; --accent: #6b7a3a;
@@ -31,11 +35,29 @@
   table { width: 100%; border-collapse: collapse; font-size: .95rem; }
   th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
   th { color: var(--muted); font-weight: 600; }
-  footer { margin-top: 40px; color: var(--muted); font-size: .9rem; }
+  footer { margin-top: 40px; color: var(--muted); font-size: .9rem; text-align: center; }
+  .brand { text-align: center; margin: 0 0 28px; padding: 26px 16px 20px; border-radius: 22px;
+           background: linear-gradient(180deg, var(--tint), transparent); border: 1px solid var(--line); }
+  .brand .logo { width: 104px; height: 104px; }
+  .brand .author { display: block; height: 34px; margin: 14px auto 0; }
+  .brand .rh { margin: 2px 0 0; color: var(--muted); font-family: "Noto Nastaliq Urdu", serif; }
+  .brand .app { margin: 6px 0 0; font-weight: 600; }
+  footer img { width: 28px; height: 28px; vertical-align: middle; margin-right: 6px; }
+  :root { --tint: #efe6d6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --tint: #2b251c; }
+    .brand .author { filter: invert(1) brightness(.92); }
+  }
 </style>
 </head>
 <body>
 <main>
+  <header class="brand">
+    <img class="logo" src="logo.png" alt="Tafseer ul Quran al Kareem logo">
+    <img class="author" src="author.png" alt="Hafiz Abdul Salam bin Muhammad">
+    <p class="rh" dir="rtl">رحمہ اللہ تعالیٰ</p>
+    <p class="app">Tafseer ul Quran al Kareem</p>
+  </header>
   <h1>Privacy Policy</h1>
   <p class="meta">Tafseer ul Quran al Kareem (Hafiz Abdul Salam bin Muhammad Bhutvi, Rahimahullah) · Effective 6 November 2026</p>
 
@@ -118,7 +140,7 @@
   <h2>11. Contact</h2>
   <p>Naeem ur Rehman · Phone / WhatsApp: <a href="tel:+923084313504">+92 308 4313504</a></p>
 
-  <footer>Tafseer ul Quran al Kareem · Free for everyone</footer>
+  <footer><img src="favicon.png" alt="">Tafseer ul Quran al Kareem · Free for everyone</footer>
 </main>
 </body>
 </html>
