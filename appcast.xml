@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Update feed for the Tafseer ul Quran app (Android), read by the upgrader
+  package from version 3.0.1 on.
+
+  For every release, add a new <item> at the top with its version number.
+  To force an update, put <sparkle:tags><sparkle:criticalUpdate /></sparkle:tags>
+  in that item: everyone below that version gets the update prompt without
+  Later or Ignore. Keep old critical items; they keep forcing older versions.
+  The <description> is shown as the release notes in the prompt.
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Tafseer ul Quran</title>
+    <item>
+      <title>Version 3.0.0</title>
+      <description>A complete redesign of Tafseer ul Quran, with prayer times, adhkar, tasbih and the Qiblah compass.</description>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      <sparkle:tags>
+        <sparkle:criticalUpdate />
+      </sparkle:tags>
+      <enclosure url="https://play.google.com/store/apps/details?id=com.naeem.tafseerulquran"
+                 sparkle:version="3.0.0" sparkle:os="android" />
+    </item>
+  </channel>
+</rss>
